@@ -1,6 +1,6 @@
 <?php
 require_once 'functions.php';
-require_admin();
+require_login();
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $owner = (int)$_POST['owner'];
