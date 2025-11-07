@@ -36,7 +36,7 @@ if (!$inv) { echo "Not found"; exit; }
       <p><span>Amount:</span> <?= e($inv['amount']) ?></p>
       <p><span>Description:</span> <?= e($inv['description']) ?></p>
     </div>
-    <a href="../index.php">← Back</a>
+    <a href="../dashboard.php">← Back</a>
   </div>
 </body>
 </html>

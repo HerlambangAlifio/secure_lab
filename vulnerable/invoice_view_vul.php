@@ -46,7 +46,7 @@ if (!$inv) { echo "Not found"; exit; }
       </div>
     </div>
 
-    <p class="note"><a href="../index.php">← Back</a></p>
+    <p class="note"><a href="../dashboard.php">← Back</a></p>
   </div>
 </body>
 </html>
